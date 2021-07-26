@@ -1,0 +1,70 @@
+body {
+  margin: 30px 0 0 0;
+  font-family: $font-family-sans-serif;
+  background-color: $bg-color;
+  color: $main-color;
+}
+
+.cv {
+  padding: 30px;
+
+  .intro {
+    margin-bottom: 40px;
+
+    img {
+      margin-bottom: 20px;
+      width: 200px;
+      height: auto;
+    }
+
+    .cv-title {
+      font-size: 36px;
+      font-weight: 700;
+    }
+
+    .intro-social {
+      margin: 25px;
+    }
+
+    a {
+      color: $main-color;
+    }
+
+    a:hover {
+      color: $second-color;
+    }
+  }
+
+  i {
+    font-size: 24px;
+    padding: 5px 10px;
+  }
+
+  table.table-bordered  {
+    thead, tbody, th, td, tr {
+      border-color: $main-color;
+      color: $main-color;
+    }
+  }
+}
+
+footer {
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: $second-color;
+  font-size: 12px;
+  color: $bg-color;
+
+  a {
+    color: $bg-color;
+  }
+
+  a:hover {
+    color: $main-color;
+  }
+
+  p {
+    margin: 5px 0;
+  }
+}
